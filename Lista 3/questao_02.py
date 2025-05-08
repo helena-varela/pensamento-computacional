@@ -11,7 +11,7 @@ media_aritmetica = soma_arit/10
 
 inverter = 0
 for k in taxas:
-    inverter += 1/k
+    inverter = inverter + 1/k
 
 media = inverter/10
 media_harmonica = 1/media
