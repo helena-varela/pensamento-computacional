@@ -1,9 +1,10 @@
 qntpessoas = int(input("Qual o número de pessoas? "))
 
-soma = 0
+idades = []
 for i in range(qntpessoas):
-    idades = int(input("Informe as idades: "))
-    soma = soma + idades
+    idade = int(input("Informe as idades: "))
+    idades.append(idade)
 
+soma = sum(idades)
 media = soma / qntpessoas
 print("A média de idade das pessoas é " + str(media) + " anos")
